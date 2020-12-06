@@ -1,0 +1,27 @@
+<html>
+	<center><body style="background-color:red;margin-top:10%;">
+		<form>
+			<h2>LOGIN</h2>
+			<p>USERNAME:<input type="text" name="un" id="un"><br><br></p>
+			<p>PASSWORD:<input type="password" name="pwd" id="pwd"><br><br></p>
+			<button onclick="fxn(un,pwd)">LOGIN</button>
+		</form>
+		
+		<script>
+			function fxn()
+			{
+				var uname=document.getElementById("un").value;
+				var pword=document.getElementById("pwd").value;
+				
+				if(uname=="iramma" && pword=="iramma")
+					alert("success");
+				else
+				{
+					alert("failed")
+				}
+					//window.location.replace="C:\Users\IrammaSH\Desktop\error.html";
+			}
+		</script>
+		
+	</body></center>
+</html>
